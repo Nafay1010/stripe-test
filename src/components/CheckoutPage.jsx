@@ -85,6 +85,7 @@ const CheckoutPage = ({ amount }) => {
       {clientSecret && (
         <PaymentElement
           options={{
+            layout: "accordion",
             style: {
               base: {
                 color: "#32325d",
